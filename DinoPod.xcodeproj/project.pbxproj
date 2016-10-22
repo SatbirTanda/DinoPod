@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50D0C7F1B6F34D300178002 /* MenuColorsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C7E1B6F34D200178002 /* MenuColorsCollectionViewController.swift */; };
+		D50D0C811B6F38BA00178002 /* AbstractImageSelectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C801B6F38BA00178002 /* AbstractImageSelectionCollectionViewController.swift */; };
+		D50D0C831B6F3D8500178002 /* ForwardButtonColorsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C821B6F3D8500178002 /* ForwardButtonColorsCollectionViewController.swift */; };
+		D50D0C851B6F3E0B00178002 /* PlayPauseButtonColorsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C841B6F3E0B00178002 /* PlayPauseButtonColorsCollectionViewController.swift */; };
+		D50D0C871B6F3E3E00178002 /* RewindButtonColorsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C861B6F3E3E00178002 /* RewindButtonColorsCollectionViewController.swift */; };
+		D50D0C8D1B75613900178002 /* DinoPodHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C8C1B75613900178002 /* DinoPodHistory.swift */; };
+		D50D0C961B776F3A00178002 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D0C951B776F3A00178002 /* SettingsTableViewController.swift */; };
+		D52C51B91B511A630056914E /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52C51B81B511A630056914E /* SongsTableViewController.swift */; };
+		D581731F1B5C100E008BBC31 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581731E1B5C100E008BBC31 /* MusicPlayerViewController.swift */; };
+		D58173271B693514008BBC31 /* DinoPodMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58173261B693514008BBC31 /* DinoPodMusicPlayer.swift */; };
+		D5B1AC061B5336860066C08D /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1AC051B5336860066C08D /* AlbumsTableViewController.swift */; };
+		D5B1AC081B5336980066C08D /* ArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1AC071B5336980066C08D /* ArtistsTableViewController.swift */; };
+		D5B1AC101B55ED720066C08D /* MusicMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1AC0F1B55ED720066C08D /* MusicMenuTableViewController.swift */; };
+		D5DF365D1BAD431C009CFAB7 /* ScrollWheelColorsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF365C1BAD431C009CFAB7 /* ScrollWheelColorsCollectionViewController.swift */; };
+		D5E208051B6DD16B0029369A /* DinoPodColorsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E208041B6DD16B0029369A /* DinoPodColorsCollectionViewController.swift */; };
+		D5E208071B6EB0630029369A /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E208061B6EB0630029369A /* ColorCollectionViewCell.swift */; };
+		D5E208091B6F09860029369A /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E208081B6F09860029369A /* ImageCollectionViewCell.swift */; };
+		D5F342041B474FF7003C6AC0 /* ScrollWheelGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F342031B474FF7003C6AC0 /* ScrollWheelGestureRecognizer.swift */; };
+		D5FDF3AD1B36404700691B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FDF3AC1B36404700691B89 /* AppDelegate.swift */; };
+		D5FDF3AF1B36404700691B89 /* DinoPodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FDF3AE1B36404700691B89 /* DinoPodViewController.swift */; };
+		D5FDF3B21B36404800691B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FDF3B01B36404800691B89 /* Main.storyboard */; };
+		D5FDF3B41B36404800691B89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FDF3B31B36404800691B89 /* Images.xcassets */; };
+		D5FDF3B71B36404800691B89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FDF3B51B36404800691B89 /* LaunchScreen.xib */; };
+		D5FDF3C31B36404800691B89 /* DinoPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FDF3C21B36404800691B89 /* DinoPodTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5FDF3BD1B36404800691B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FDF39F1B36404700691B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FDF3A61B36404700691B89;
+			remoteInfo = DinoPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D50D0C7E1B6F34D200178002 /* MenuColorsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuColorsCollectionViewController.swift; sourceTree = "<group>"; };
+		D50D0C801B6F38BA00178002 /* AbstractImageSelectionCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractImageSelectionCollectionViewController.swift; sourceTree = "<group>"; };
+		D50D0C821B6F3D8500178002 /* ForwardButtonColorsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardButtonColorsCollectionViewController.swift; sourceTree = "<group>"; };
+		D50D0C841B6F3E0B00178002 /* PlayPauseButtonColorsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayPauseButtonColorsCollectionViewController.swift; sourceTree = "<group>"; };
+		D50D0C861B6F3E3E00178002 /* RewindButtonColorsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewindButtonColorsCollectionViewController.swift; sourceTree = "<group>"; };
+		D50D0C8C1B75613900178002 /* DinoPodHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinoPodHistory.swift; sourceTree = SOURCE_ROOT; };
+		D50D0C951B776F3A00178002 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		D52C51B81B511A630056914E /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		D581731E1B5C100E008BBC31 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		D58173261B693514008BBC31 /* DinoPodMusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinoPodMusicPlayer.swift; sourceTree = "<group>"; };
+		D5B1AC051B5336860066C08D /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		D5B1AC071B5336980066C08D /* ArtistsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsTableViewController.swift; sourceTree = "<group>"; };
+		D5B1AC0F1B55ED720066C08D /* MusicMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicMenuTableViewController.swift; sourceTree = "<group>"; };
+		D5DF365C1BAD431C009CFAB7 /* ScrollWheelColorsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollWheelColorsCollectionViewController.swift; sourceTree = "<group>"; };
+		D5E208041B6DD16B0029369A /* DinoPodColorsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinoPodColorsCollectionViewController.swift; sourceTree = "<group>"; };
+		D5E208061B6EB0630029369A /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5E208081B6F09860029369A /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5F342031B474FF7003C6AC0 /* ScrollWheelGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollWheelGestureRecognizer.swift; sourceTree = "<group>"; };
+		D5FDF3A71B36404700691B89 /* DinoPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FDF3AB1B36404700691B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FDF3AC1B36404700691B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5FDF3AE1B36404700691B89 /* DinoPodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoPodViewController.swift; sourceTree = "<group>"; };
+		D5FDF3B11B36404800691B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5FDF3B31B36404800691B89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5FDF3B61B36404800691B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D5FDF3BC1B36404800691B89 /* DinoPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinoPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FDF3C11B36404800691B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FDF3C21B36404800691B89 /* DinoPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoPodTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5FDF3A41B36404700691B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDF3B91B36404800691B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50D0C941B776F0E00178002 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D50D0C951B776F3A00178002 /* SettingsTableViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		D5B1AC0A1B55E3400066C08D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1AC0F1B55ED720066C08D /* MusicMenuTableViewController.swift */,
+				D5B1AC051B5336860066C08D /* AlbumsTableViewController.swift */,
+				D5B1AC071B5336980066C08D /* ArtistsTableViewController.swift */,
+				D52C51B81B511A630056914E /* SongsTableViewController.swift */,
+				D581731E1B5C100E008BBC31 /* MusicPlayerViewController.swift */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		D5B1AC0B1B55E35E0066C08D /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				D5E208061B6EB0630029369A /* ColorCollectionViewCell.swift */,
+				D5E208081B6F09860029369A /* ImageCollectionViewCell.swift */,
+				D5E208041B6DD16B0029369A /* DinoPodColorsCollectionViewController.swift */,
+				D50D0C801B6F38BA00178002 /* AbstractImageSelectionCollectionViewController.swift */,
+				D5DF365C1BAD431C009CFAB7 /* ScrollWheelColorsCollectionViewController.swift */,
+				D50D0C7E1B6F34D200178002 /* MenuColorsCollectionViewController.swift */,
+				D50D0C821B6F3D8500178002 /* ForwardButtonColorsCollectionViewController.swift */,
+				D50D0C841B6F3E0B00178002 /* PlayPauseButtonColorsCollectionViewController.swift */,
+				D50D0C861B6F3E3E00178002 /* RewindButtonColorsCollectionViewController.swift */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
+		D5FDF39E1B36404600691B89 = {
+			isa = PBXGroup;
+			children = (
+				D5FDF3A91B36404700691B89 /* DinoPod */,
+				D5FDF3BF1B36404800691B89 /* DinoPodTests */,
+				D5FDF3A81B36404700691B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5FDF3A81B36404700691B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF3A71B36404700691B89 /* DinoPod.app */,
+				D5FDF3BC1B36404800691B89 /* DinoPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FDF3A91B36404700691B89 /* DinoPod */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF3B01B36404800691B89 /* Main.storyboard */,
+				D50D0C8C1B75613900178002 /* DinoPodHistory.swift */,
+				D58173261B693514008BBC31 /* DinoPodMusicPlayer.swift */,
+				D5FDF3AE1B36404700691B89 /* DinoPodViewController.swift */,
+				D5F342031B474FF7003C6AC0 /* ScrollWheelGestureRecognizer.swift */,
+				D5B1AC0A1B55E3400066C08D /* Music */,
+				D5B1AC0B1B55E35E0066C08D /* Colors */,
+				D50D0C941B776F0E00178002 /* Settings */,
+				D5FDF3B31B36404800691B89 /* Images.xcassets */,
+				D5FDF3AA1B36404700691B89 /* Supporting Files */,
+			);
+			path = DinoPod;
+			sourceTree = "<group>";
+		};
+		D5FDF3AA1B36404700691B89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF3B51B36404800691B89 /* LaunchScreen.xib */,
+				D5FDF3AC1B36404700691B89 /* AppDelegate.swift */,
+				D5FDF3AB1B36404700691B89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5FDF3BF1B36404800691B89 /* DinoPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF3C21B36404800691B89 /* DinoPodTests.swift */,
+				D5FDF3C01B36404800691B89 /* Supporting Files */,
+			);
+			path = DinoPodTests;
+			sourceTree = "<group>";
+		};
+		D5FDF3C01B36404800691B89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF3C11B36404800691B89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5FDF3A61B36404700691B89 /* DinoPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FDF3C61B36404800691B89 /* Build configuration list for PBXNativeTarget "DinoPod" */;
+			buildPhases = (
+				D5FDF3A31B36404700691B89 /* Sources */,
+				D5FDF3A41B36404700691B89 /* Frameworks */,
+				D5FDF3A51B36404700691B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoPod;
+			productName = DinoPod;
+			productReference = D5FDF3A71B36404700691B89 /* DinoPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5FDF3BB1B36404800691B89 /* DinoPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FDF3C91B36404800691B89 /* Build configuration list for PBXNativeTarget "DinoPodTests" */;
+			buildPhases = (
+				D5FDF3B81B36404800691B89 /* Sources */,
+				D5FDF3B91B36404800691B89 /* Frameworks */,
+				D5FDF3BA1B36404800691B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FDF3BE1B36404800691B89 /* PBXTargetDependency */,
+			);
+			name = DinoPodTests;
+			productName = DinoPodTests;
+			productReference = D5FDF3BC1B36404800691B89 /* DinoPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5FDF39F1B36404700691B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Satbir Tanda";
+				TargetAttributes = {
+					D5FDF3A61B36404700691B89 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = BS2TMM7A48;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					D5FDF3BB1B36404800691B89 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D5FDF3A61B36404700691B89;
+					};
+				};
+			};
+			buildConfigurationList = D5FDF3A21B36404700691B89 /* Build configuration list for PBXProject "DinoPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5FDF39E1B36404600691B89;
+			productRefGroup = D5FDF3A81B36404700691B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5FDF3A61B36404700691B89 /* DinoPod */,
+				D5FDF3BB1B36404800691B89 /* DinoPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5FDF3A51B36404700691B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FDF3B21B36404800691B89 /* Main.storyboard in Resources */,
+				D5FDF3B71B36404800691B89 /* LaunchScreen.xib in Resources */,
+				D5FDF3B41B36404800691B89 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDF3BA1B36404800691B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5FDF3A31B36404700691B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F342041B474FF7003C6AC0 /* ScrollWheelGestureRecognizer.swift in Sources */,
+				D50D0C7F1B6F34D300178002 /* MenuColorsCollectionViewController.swift in Sources */,
+				D5FDF3AF1B36404700691B89 /* DinoPodViewController.swift in Sources */,
+				D52C51B91B511A630056914E /* SongsTableViewController.swift in Sources */,
+				D5FDF3AD1B36404700691B89 /* AppDelegate.swift in Sources */,
+				D5B1AC081B5336980066C08D /* ArtistsTableViewController.swift in Sources */,
+				D50D0C851B6F3E0B00178002 /* PlayPauseButtonColorsCollectionViewController.swift in Sources */,
+				D5B1AC101B55ED720066C08D /* MusicMenuTableViewController.swift in Sources */,
+				D5E208091B6F09860029369A /* ImageCollectionViewCell.swift in Sources */,
+				D50D0C871B6F3E3E00178002 /* RewindButtonColorsCollectionViewController.swift in Sources */,
+				D5B1AC061B5336860066C08D /* AlbumsTableViewController.swift in Sources */,
+				D5DF365D1BAD431C009CFAB7 /* ScrollWheelColorsCollectionViewController.swift in Sources */,
+				D50D0C811B6F38BA00178002 /* AbstractImageSelectionCollectionViewController.swift in Sources */,
+				D50D0C831B6F3D8500178002 /* ForwardButtonColorsCollectionViewController.swift in Sources */,
+				D581731F1B5C100E008BBC31 /* MusicPlayerViewController.swift in Sources */,
+				D50D0C8D1B75613900178002 /* DinoPodHistory.swift in Sources */,
+				D50D0C961B776F3A00178002 /* SettingsTableViewController.swift in Sources */,
+				D5E208071B6EB0630029369A /* ColorCollectionViewCell.swift in Sources */,
+				D5E208051B6DD16B0029369A /* DinoPodColorsCollectionViewController.swift in Sources */,
+				D58173271B693514008BBC31 /* DinoPodMusicPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDF3B81B36404800691B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FDF3C31B36404800691B89 /* DinoPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5FDF3BE1B36404800691B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FDF3A61B36404700691B89 /* DinoPod */;
+			targetProxy = D5FDF3BD1B36404800691B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5FDF3B01B36404800691B89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FDF3B11B36404800691B89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5FDF3B51B36404800691B89 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FDF3B61B36404800691B89 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5FDF3C41B36404800691B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5FDF3C51B36404800691B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5FDF3C71B36404800691B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DinoPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SinghKaur.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5FDF3C81B36404800691B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DinoPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SinghKaur.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D5FDF3CA1B36404800691B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DinoPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinoPod.app/DinoPod";
+			};
+			name = Debug;
+		};
+		D5FDF3CB1B36404800691B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DinoPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinoPod.app/DinoPod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5FDF3A21B36404700691B89 /* Build configuration list for PBXProject "DinoPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FDF3C41B36404800691B89 /* Debug */,
+				D5FDF3C51B36404800691B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FDF3C61B36404800691B89 /* Build configuration list for PBXNativeTarget "DinoPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FDF3C71B36404800691B89 /* Debug */,
+				D5FDF3C81B36404800691B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FDF3C91B36404800691B89 /* Build configuration list for PBXNativeTarget "DinoPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FDF3CA1B36404800691B89 /* Debug */,
+				D5FDF3CB1B36404800691B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5FDF39F1B36404700691B89 /* Project object */;
+}
